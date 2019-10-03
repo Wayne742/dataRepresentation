@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<!--Data Representation & Querying-->
+<!--Wayne Reilly 01/10/2019-->
+<!--Lab 1 Week 1 Carviewer-->
+
+<html>
+	<head>
+		<title>View Cars</title>
+		<!--Bootstrap CSS as provided-->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+crossorigin="anonymous">
+		<!--Create a table border using CSS-->
+		<style>
+		/* CSS to create table border */
+		table, th, td {
+			border: 2px solid black;
+		}
+		/* Align the table data to centre */
+		td {
+			text-align: center;
+		}
+		/* Align the table header text to centre */
+		th {
+			text-align: center;
+		}
+		</style> 			
+	</head>
+	<body>
+		<h1>Cars</h1>
+			
+			<div>
+				<button>Create</button>
+			</div>	
+		<h2>All Cars</h2>
+		<div>
+			<table style="width:100%"><!--Opening Table tag. Width set to 100% of screen-->
+			<!--Table row containing data for header row-->
+			<tr>
+				<th>Reg</th>
+				<th>Make</th>
+				<th>Model</th>
+				<th>Price</th>
+				<th>Update</th>
+				<th>Delete</th>	
+			</tr>
+			<!--Table row containing data for first row-->
+			<tr>
+				<td>191 MO 123</td>
+				<td>Ford</td>
+				<td>Mondeo</td>
+				<td>25,000</td>
+				<td><button>Update</button></td>
+				<td><button>Delete</button></td>
+			</tr>
+			
+			<!--Table row containing data for second row-->
+			<tr>
+				<td>12 D 123</td>
+				<td>Fiat</td>
+				<td>Punto</td>
+				<td>4,000</td>
+				<td><button>Update</button></td>
+				<td><button>Delete</button></td>
+			</tr>
+			<!--Table row containing data for third row-->
+			<tr>
+				<td>08 G 123</td>
+				<td>Nissan</td>
+				<td>Almera</td>
+				<td>500</td>
+				<td><button>Update</button></td>
+				<td><button>Delete</button></td>
+			</tr>		
+			</table><!--Closing Table tag-->
+		</div>
+	<br/><!--Line break between div's-->	
+		<div>
+			<h2><span>Create a</span> <span>Update this</span> Car</h2>
+
+			Reg<input type="text" name="reg"><br/>
+			Make<select name="Make">
+					<option value="Ford">Ford</option>
+					<option value="Fiat">Fiat</option>
+					<option value="Nissan">Nissan</option>
+				</select><br/>	
+			Model<input type="text" name="Model"><br/>
+			Price<input type="text" name="Price"><br/>	
+		</div>
+				
+		<span><button>Create</button></span>
+		<span><button>Update</button></span>
+		
+	</body>
+	
+</html>
