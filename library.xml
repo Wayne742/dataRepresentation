@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<library>
+
+	<book category="fiction">
+		<title lang="en">Guards! Guards!</title>
+		<author>Terry Pratchett</author>
+		<year>2012</year>
+		<isbn>9780552166669</isbn>
+	</book>
+
+	<book category="fiction">
+		<title lang="en">Sourcery</title>
+		<author>Terry Pratchett</author>
+		<year>2012</year>
+		<isbn>9780552166638</isbn>
+	</book>	
+
+	<book category="non-fiction">
+		<title lang="en">Why Does E=MC2?</title>
+		<author>Brian Cox</author>
+		<author>Jeff Forshaw</author>
+		<year>2009</year>
+		<ISBN>9780306819117</ISBN>
+	</book> 
+
+</library>
